@@ -1,0 +1,36 @@
+site_name: Стайлгайд корпоративной и технической документации
+site_description: Руководство по стилю технической и корпоративной документации
+site_author: Учебный проект
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+plugins:
+  - search:
+      lang:
+        - ru
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Главная: index.md
+  - Общие положения: general.md
+  - Язык и стиль: language.md
+  - Терминология и сокращения: terminology.md
+  - Структура документов: structure.md
+  - Визуальное оформление: visual.md
+  - Требования к инструкциям: instructions.md
+  - Нормативные ссылки: references.md
+  - Контроль качества: quality.md
+  - Доступность текста: accessibility.md
